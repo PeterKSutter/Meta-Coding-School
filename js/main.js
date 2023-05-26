@@ -1,5 +1,5 @@
 
-var navbar = document.getElementById('menu');
+var menu = document.getElementById('menu');
 var close = document.getElementById('close');
 
 menu.addEventListener('click',function(){
@@ -15,3 +15,4 @@ close.addEventListener('click',function(){
     document.getElementById("close").style.display = "none";
 
 })
+
